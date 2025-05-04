@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Saurav Chafle</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievement">Achivements</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Saurav Chafle</span>
+          </h2>
+          <p class="text-muted">
+            I'm A Software Developer creating website with fully responsive Also with backend part too.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Hire Me
+          </button>
+          <a href="https://github.com/saurav-chafle" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/saurav_bleser-removebg.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small></small>
+        <h3>My Experiance</h3>
+        <!-- <h3>
+          Provide Wide Range of <br />
+          Digital Services
+        </h3> -->
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Development Intern</h4>
+              <p class="text-muted">
+                Nagpur Munciple Corporation(NMC)-Sep 2024 to Present
+              </p>
+              <a href="https://www.linkedin.com/in/saurav-chafle-43ab22291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>AI Tools Workshop</h4>
+              <p class="text-muted">
+                be10x - 3rd March 2024
+              </p>
+              <a href="https://www.linkedin.com/in/saurav-chafle-43ab22291/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Developement Intern</h4>
+              <p class="text-muted">
+                Idevify Solutions pvt ltd , Nagpur - 16 Jan 2024 to 16 Apr 2024
+              </p>
+              <a href="https://www.linkedin.com/in/saurav-chafle-43ab22291/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon3.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Python Developer Intern</h4>
+              <p class="text-muted">
+                iBase Electrosoft LLP - Jul 2022 to Aug 2022
+              </p>
+              <a href="https://www.linkedin.com/in/saurav-chafle-43ab22291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        
+        <!-- Skill Icons Section -->
+        <div class="col-10 col-md-5 skill-icons" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+    
+            <!-- HTML & CSS -->
+            <div class="col-6 col-md-4 text-center mb-4">
+              <img src="images/html_css.jpeg" alt="HTML & CSS" width="50" />
+              <p class="mt-2">HTML & CSS</p>
+            </div>
+    
+            <!-- JavaScript -->
+            <div class="col-6 col-md-4 text-center mb-4">
+              <img src="images/js.png" alt="JavaScript" width="50" />
+              <p class="mt-2">JavaScript</p>
+            </div>
+    
+            <!-- PHP -->
+            <div class="col-6 col-md-4 text-center mb-4">
+              <img src="images/php.png" alt="PHP" width="50" />
+              <p class="mt-2">PHP</p>
+            </div>
+    
+            <!-- ReactJS -->
+            <div class="col-6 col-md-4 text-center mb-4">
+              <img src="images/react.png" alt="ReactJS" width="50" />
+              <p class="mt-2">ReactJS</p>
+            </div>
+    
+            <!-- Java -->
+            <div class="col-6 col-md-4 text-center mb-4">
+              <img src="images/java.png" alt="Java" width="50" />
+              <p class="mt-2">Java</p>
+            </div>
+    
+            <!-- Node.js -->
+            <div class="col-6 col-md-4 text-center mb-4">
+              <img src="images/nodejs.png" alt="Node.js" width="50" />
+              <p class="mt-2">Node.js</p>
+            </div>
+    
+            <!-- MongoDB -->
+            <div class="col-6 col-md-4 text-center mb-4">
+              <img src="images/mongodb.png" alt="MongoDB" width="50" />
+              <p class="mt-2">MongoDB</p>
+            </div>
+             <!-- SQL -->
+             <div class="col-6 col-md-4 text-center mb-4">
+              <img src="images/sql.png" alt="MongoDB" width="50" />
+              <p class="mt-2">SQL</p>
+            </div>
+    
+          </div>
+        </div>
+    
+        <!-- Text Section -->
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Beautiful & Unique Digital Experiences</h3>
+            <p class="text-muted">
+              As a passionate software developer, I specialize in blending creativity with technology 
+              to craft visually stunning and highly functional websites and applications.
+            </p>
+            <p class="text-muted">
+              I thrive on collaborating with clients to bring their vision to life, transforming complex ideas into 
+              simple, beautiful digital experiences that leave a lasting impact.
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <a class="btn content-download button-main button-scheme" href="resume/sauravchafle_cv.pdf" download="SauravCV" >Download CV</a>
+            </button>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3>Check My Project</h3>
+      </div>
+    
+      <!-- <div id="myBtnContainer" class="text-center mt-4">
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="game">Game</button>
+        <button class="filter-item" data-filter="webapp">Web App</button>
+        <button class="filter-item" data-filter="website">Website</button>
+        <button class="filter-item" data-filter="brand">Brand</button>
+      </div> -->
+    
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+    
+          <!-- Face Recognization -->
+          <div class="post col-md-4 all game col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/face_recog.jpeg" class="card-img-top" alt="Face Recognization" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Face Recognization</h4>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill">Deep Learning</span>
+                <span class="badge bg-secondary badge-pill mb-2">Tensorflow</span><br />
+                <a href="https://github.com/saurav-chafle/Facial_Vibe_Detector" class="link">View Site</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Audio Book -->
+          <div class="post col-md-4 all game col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/audiobook.jpeg" class="card-img-top" alt="Audio Book" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Audio Book</h4>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill">Tkinter</span>
+                <span class="badge bg-secondary badge-pill mb-2">Playsoun</span><br />
+                <a href="https://github.com/saurav-chafle/EchoFlow" class="link">View Site</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Converter App -->
+          <div class="post col-md-4 all website col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/realestate.png" class="card-img-top" alt="Converter App" />
+              <div class="card-body text-center">
+                <h4 class="card-title">RealEstate</h4>
+                <span class="badge bg-secondary badge-pill">JSP</span>
+                <span class="badge bg-secondary badge-pill">MySQL</span>
+                <span class="badge bg-secondary badge-pill mb-2">Website</span><br />
+                <a href="https://github.com/saurav-chafle/RealEstate" class="read-more-btn link">View Site</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Dictionary -->
+          <div class="post col-md-4 all webapp col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/shoes.png" class="card-img-top" alt="Dictionary" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Shoes Shopy</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">WebApp</span><br />
+                <a href="https://saurav-chafle.github.io/Shoes-Shop/" class="read-more-btn link">View Site</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- TicTacToe -->
+          <div class="post col-md-4 all game website col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/scoring.png" class="card-img-top" alt="TicTacToe Game" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Scoring Board</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">PlayGame</span><br />
+                <a href="https://github.com/saurav-chafle/Scoring-Board" class="read-more-btn link">View Site</a>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <!-- portfolio section ends here -->
+
+    <!-- testimonial section starts  -->
+    <section class="education mt-5 pt-5" id="education">
+      <div class="heading text-center pt-5">
+        <small></small>
+        <h3>Education</h3>
+      </div>
+      <div class="row justify-content-evenly">
+        <!-- College Card 1 -->
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="college-card">
+            <img src="images/gpArvi.jpeg" class="img-fluid card-img" alt="College 1" />
+            <div class="card-body">
+              <h4 class="college-name">Government Polytechnic, Arvi</h4>
+              <p class="college-description">Diploma, Computer Engineering - 2020 to 2023</p>
+              <small>Grade: First Class Distension</small>
+
+            </div>
+          </div>
+        </div>
+        
+        <!-- College Card 2 -->
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="college-card">
+            <img src="images/pce.jpg" class="img-fluid card-img" alt="College 2" />
+            <div class="card-body">
+              <small>LOKMANYA TILAK JANKALYAN SHIKSHAN SANSTHA'S</small>
+              <h4 class="college-name">PRIYADARSHINI COLLEGE OF ENGINEERING, NAGPUR</h1>
+              <p class="college-description">B.tech, Information Technology - 2023 to 2026</p>
+              <small>Grade: Pursuing</small>
+            </div>
+          </div>
+        </div>
+    
+        <!-- College Card 3 -->
+        <!-- <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="college-card">
+            <img src="images/college3.jpg" class="img-fluid card-img" alt="College 3" />
+            <div class="card-body">
+              <h4 class="college-name">MIT (Massachusetts Institute of Technology)</h4>
+              <p class="college-description">A leading university focused on scientific and technological advancements with a highly competitive environment.</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </section>
+    
+   <!-- achievement section starts -->
+   <section class="achievement mt-5 pb-5" id="achievement">
+    <div class="heading text-center pt-5">
+      <small>Our Recognition</small>
+      <h3>Achievements & Certifications</h3>
+    </div>
+  
+    <div class="container mt-4">
+      <div class="row g-4 justify-content-center" data-aos="fade-up">
+        
+        <!-- Certificate Cards -->
+        <div class="col-md-4 col-lg-3 col-sm-6">
+          <div class="card h-100 text-center">
+            <img src="images/certificate_idevify_s.jpg" class="card-img-top rounded-4" alt="Certificate 1">
+            <div class="card-body px-3">
+              <h5 class="card-title">Web Developer</h5>
+              <a href="#" class="btn btn-sm btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#certificateModal1">View Details</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-3 col-sm-6">
+          <div class="card h-100 text-center">
+            <img src="images/certficate_b10x_s.jpg" class="card-img-top rounded-4" alt="Certificate 2">
+            <div class="card-body px-3">
+              <h5 class="card-title">b10x Workshop</h5>
+              <a href="#" class="btn btn-sm btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#certificateModal2">View Details</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-3 col-sm-6">
+          <div class="card h-100 text-center">
+            <img src="images/certificate_IIIT_s.jpg" class="card-img-top rounded-4" alt="Certificate 3">
+            <div class="card-body px-3">
+              <h5 class="card-title">Cosmic Craftththon Game Jam</h5>
+              <a href="#" class="btn btn-sm btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#certificateModal3">View Details</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-3 col-sm-6">
+          <div class="card h-100 text-center">
+            <img src="images/javahackerrank.png" class="card-img-top rounded-4" alt="Certificate 4">
+            <div class="card-body px-3">
+              <h5 class="card-title">Java [HackerRank]</h5>
+              <a href="#" class="btn btn-sm btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#certificateModal4">View Details</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-3 col-sm-6">
+          <div class="card h-100 text-center">
+            <img src="images/gfg.png" class="card-img-top rounded-4" alt="Certificate 5">
+            <div class="card-body px-3">
+              <h5 class="card-title">GFG 160 Days DSA Challenge</h5>
+              <a href="#" class="btn btn-sm btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#certificateModal5">View Details</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-lg-3 col-sm-6">
+          <div class="card h-100 text-center">
+            <img src="images/iisf.jpeg" class="card-img-top rounded-4" alt="Certificate 6">
+            <div class="card-body px-3">
+              <h5 class="card-title">IISF Kolkata</h5>
+              <a href="#" class="btn btn-sm btn-outline-primary mt-2" data-bs-toggle="modal" data-bs-target="#certificateModal6">View Details</a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+<!-- achievement section ends here -->
+
+
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Vaishali nager Nagpur Maharashtra</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 8468978170</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>sauravchafle6@gmail.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <!-- <div class="col-11">
+              <p>codingsaurav.com</p>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Experiance</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Project</a>
+        <div class="vr"></div>
+        <a href="#blog">Education</a>
+        <div class="vr"></div>
+        <a href="#contact">Achievement</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <a href="https://instagram.com/yourprofile" target="_blank" class="rounded-pill instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://github.com/saurav-chafle" target="_blank" class="rounded-pill github">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/saurav-chafle-43ab22291/" target="_blank" class="rounded-pill linkedin">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://twitter.com/yourhandle" target="_blank" class="rounded-pill twitter">
+          <i class="bi bi-twitter-x"></i> <!-- or use bi-twitter -->
+        </a>
+      </div>
+      <hr class="text-muted my-4" />
+      
+
+      <p>Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
